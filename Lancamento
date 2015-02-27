@@ -1,0 +1,19 @@
+public class Lancamento{
+	private Integer codLancto;
+	private Evento evento;
+	private Conta conta;
+	private Double valorLancto;
+	private String dataLancto;
+	
+	public Lancamento(Integer codLancto, Evento evento, Conta conta, &
+										Double valorLancto, String dataLancto){
+		this.codLancto = codLancto;
+		this.evento = evento;
+		this.conta = conta;
+		this.valorLancto = valorLancto;
+		this.dataLancto = dataLancto;
+	}
+	
+	//gets e setters
+	
+}
